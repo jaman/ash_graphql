@@ -83,7 +83,7 @@ defmodule AshGraphql.MixProject do
     [
       {:ash, ash_version("~> 1.47 and >= 1.47.12")},
       {:absinthe_plug, "~> 1.4"},
-      {:absinthe, "~> 1.5.3"},
+      {:absinthe, "~> 1.7.0"},
       {:dataloader, "~> 1.0"},
       {:jason, "~> 1.2"},
       {:ex_doc, "~> 0.22", only: :dev, runtime: false},
